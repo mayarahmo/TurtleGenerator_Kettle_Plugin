@@ -89,7 +89,7 @@ public class DataCubeStepDialog extends BaseStepDialog implements
         swthlp = new SwtHelper(transMeta, this.props);
 
         // Additional initialization here
-        dialogTitle = "DataCube Transformator";
+        dialogTitle = "Triple Generator Transformator";
         // ...
     }
 
@@ -104,41 +104,21 @@ public class DataCubeStepDialog extends BaseStepDialog implements
         
         // Primeira tab (Descrição das Dimensões)
         CTabItem item = new CTabItem(wTabFolder, SWT.NONE);
-        item.setText("Definição e descrição das Dimensões");
+        item.setText("Definição e descrição das Propriedades");
         Composite cpt = swthlp.appendComposite(wTabFolder, lastControl);
         ColumnInfo[] columns = new ColumnInfo[] {
-                new ColumnInfo("Dimensões",
+                new ColumnInfo("Propriedades",
                 		ColumnInfo.COLUMN_TYPE_CCOMBO, this.getFields(), true),
-                new ColumnInfo("Label da Dimensão (Descrição)",
+                new ColumnInfo("Label da Propriedade (Descrição)",
                         ColumnInfo.COLUMN_TYPE_TEXT),
-                new ColumnInfo("URI da Dimensão                          \u00A0",
+                new ColumnInfo("URI da Propriedade                          \u00A0",
                         ColumnInfo.COLUMN_TYPE_TEXT),
-                new ColumnInfo("URI do tipo da Dimensão (string, float, int...)",
+                new ColumnInfo("URI do tipo da Propriedade (string, float, int...)",
                         ColumnInfo.COLUMN_TYPE_TEXT)};
         wMapTable = swthlp.appendTableView(cpt, null, columns, defModListener,
                 98);
         item.setControl(cpt);
          
-        
-        
-        //Segunda tab (Definição das medidas)
-        item = new CTabItem(wTabFolder, SWT.NONE);
-        item.setText("Definição e descrição das Medidas");
-        cpt = swthlp.appendComposite(wTabFolder, lastControl);    
-        ColumnInfo[] columns1 = new ColumnInfo[] {
-                new ColumnInfo("Medidas",
-                        ColumnInfo.COLUMN_TYPE_CCOMBO, this.getFields(), true),
-                new ColumnInfo("Label da Medida",
-                		ColumnInfo.COLUMN_TYPE_TEXT),
-                new ColumnInfo("URI da Medida                            \u00A0",
-                        ColumnInfo.COLUMN_TYPE_TEXT),
-                new ColumnInfo("URI do Tipo da Medida (string, float, int...)",
-                        ColumnInfo.COLUMN_TYPE_TEXT) };
-        wMapTable1 = swthlp.appendTableView(cpt, null, columns1, defModListener,
-                98);
-        item.setControl(cpt);
-
- 
         //Terceira tab (Definição dos vocabuláros)
         item = new CTabItem(wTabFolder, SWT.NONE);
         item.setText("Prefixos");
