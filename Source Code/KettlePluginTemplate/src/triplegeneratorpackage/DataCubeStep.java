@@ -148,7 +148,8 @@ public class DataCubeStep extends BaseStep implements
             String dimension = getInputRowMeta().getString(row, dimensionField, "");
             String dimensionURIType = table.getValue(i,DataCubeStepMeta.Field.MAP_TABLE_URI_TYPE_FIELD_NAME.name());
             if (!dimension.startsWith("http")){
-            	 line = "	exProp:"+removeSignals(dimensionField).toLowerCase()+" " + "\"" + dimension+ "\";";
+            	if (i == 0){ line = " exProp:"+removeSignals(dimensionField).toLowerCase()+" " + "\"" + dimension+ "\";";}
+            	else  line = "	exProp:"+removeSignals(dimensionField).toLowerCase()+" " + "\"" + dimension+ "\";";
             }else{ line =  "	exProp:"+removeSignals(dimensionField).toLowerCase()+" " + "<" + dimension + ">;";}
             if (i == 0){line = "ex:obj" + j +line;}
             putOutRow(row, meta, data, line);

@@ -32,187 +32,187 @@ ex: a ex: ;
 	obo:part_of ex:;
 	rdfs:label ""@en .
 
-ex:obj0	exProp:ano "2000";
+ex:obj0 exProp:ano "2000";
 	exProp:cultura "Algodão";
 	exProp:classeagrotoxico <http://aims.fao.org/aos/agrovoc/herbicide>;
 	rdfs:label "Teste" .
 
-ex:obj1	exProp:ano "2000";
+ex:obj1 exProp:ano "2000";
 	exProp:cultura "Alho";
 	exProp:classeagrotoxico <http://aims.fao.org/aos/agrovoc/herbicide>;
 	rdfs:label "Teste" .
 
-ex:obj2	exProp:ano "2000";
+ex:obj2 exProp:ano "2000";
 	exProp:cultura "Amendoim";
 	exProp:classeagrotoxico <http://aims.fao.org/aos/agrovoc/herbicide>;
 	rdfs:label "Teste" .
 
-ex:obj3	exProp:ano "2000";
+ex:obj3 exProp:ano "2000";
 	exProp:cultura "Arroz Irrigado";
 	exProp:classeagrotoxico <http://aims.fao.org/aos/agrovoc/herbicide>;
 	rdfs:label "Teste" .
 
-ex:obj4	exProp:ano "2000";
+ex:obj4 exProp:ano "2000";
 	exProp:cultura "Arroz Sequeiro";
 	exProp:classeagrotoxico <http://aims.fao.org/aos/agrovoc/herbicide>;
 	rdfs:label "Teste" .
 
-ex:obj5	exProp:ano "2000";
+ex:obj5 exProp:ano "2000";
 	exProp:cultura "Banana";
 	exProp:classeagrotoxico <http://aims.fao.org/aos/agrovoc/herbicide>;
 	rdfs:label "Teste" .
 
-ex:obj6	exProp:ano "2000";
+ex:obj6 exProp:ano "2000";
 	exProp:cultura "Batata Inglesa";
 	exProp:classeagrotoxico <http://aims.fao.org/aos/agrovoc/herbicide>;
 	rdfs:label "Teste" .
 
-ex:obj7	exProp:ano "2000";
+ex:obj7 exProp:ano "2000";
 	exProp:cultura "Cacau";
 	exProp:classeagrotoxico <http://aims.fao.org/aos/agrovoc/herbicide>;
 	rdfs:label "Teste" .
 
-ex:obj8	exProp:ano "2000";
+ex:obj8 exProp:ano "2000";
 	exProp:cultura "Café";
 	exProp:classeagrotoxico <http://aims.fao.org/aos/agrovoc/herbicide>;
 	rdfs:label "Teste" .
 
-ex:obj9	exProp:ano "2000";
+ex:obj9 exProp:ano "2000";
 	exProp:cultura "Cana-de-açúcar";
 	exProp:classeagrotoxico <http://aims.fao.org/aos/agrovoc/herbicide>;
 	rdfs:label "Teste" .
 
-ex:obj10	exProp:ano "2000";
+ex:obj10 exProp:ano "2000";
 	exProp:cultura "Cebola";
 	exProp:classeagrotoxico <http://aims.fao.org/aos/agrovoc/herbicide>;
 	rdfs:label "Teste" .
 
-ex:obj11	exProp:ano "2000";
+ex:obj11 exProp:ano "2000";
 	exProp:cultura "Citros";
 	exProp:classeagrotoxico <http://aims.fao.org/aos/agrovoc/herbicide>;
 	rdfs:label "Teste" .
 
-ex:obj12	exProp:ano "2000";
+ex:obj12 exProp:ano "2000";
 	exProp:cultura "Feijão";
 	exProp:classeagrotoxico <http://aims.fao.org/aos/agrovoc/herbicide>;
 	rdfs:label "Teste" .
 
-ex:obj13	exProp:ano "2000";
+ex:obj13 exProp:ano "2000";
 	exProp:cultura "Floricultura";
 	exProp:classeagrotoxico <http://aims.fao.org/aos/agrovoc/herbicide>;
 	rdfs:label "Teste" .
 
-ex:obj14	exProp:ano "2000";
+ex:obj14 exProp:ano "2000";
 	exProp:cultura "Fruticultura";
 	exProp:classeagrotoxico <http://aims.fao.org/aos/agrovoc/herbicide>;
 	rdfs:label "Teste" .
 
-ex:obj15	exProp:ano "2000";
+ex:obj15 exProp:ano "2000";
 	exProp:cultura "Fumo";
 	exProp:classeagrotoxico <http://aims.fao.org/aos/agrovoc/herbicide>;
 	rdfs:label "Teste" .
 
-ex:obj16	exProp:ano "2000";
+ex:obj16 exProp:ano "2000";
 	exProp:cultura "Horticultura";
 	exProp:classeagrotoxico <http://aims.fao.org/aos/agrovoc/herbicide>;
 	rdfs:label "Teste" .
 
-ex:obj17	exProp:ano "2000";
+ex:obj17 exProp:ano "2000";
 	exProp:cultura "Maçã";
 	exProp:classeagrotoxico <http://aims.fao.org/aos/agrovoc/herbicide>;
 	rdfs:label "Teste" .
 
-ex:obj18	exProp:ano "2000";
+ex:obj18 exProp:ano "2000";
 	exProp:cultura "Melão";
 	exProp:classeagrotoxico <http://aims.fao.org/aos/agrovoc/herbicide>;
 	rdfs:label "Teste" .
 
-ex:obj19	exProp:ano "2000";
+ex:obj19 exProp:ano "2000";
 	exProp:cultura "Milho";
 	exProp:classeagrotoxico <http://aims.fao.org/aos/agrovoc/herbicide>;
 	rdfs:label "Teste" .
 
-ex:obj20	exProp:ano "2000";
+ex:obj20 exProp:ano "2000";
 	exProp:cultura "Milho safra";
 	exProp:classeagrotoxico <http://aims.fao.org/aos/agrovoc/herbicide>;
 	rdfs:label "Teste" .
 
-ex:obj21	exProp:ano "2000";
+ex:obj21 exProp:ano "2000";
 	exProp:cultura "Milho safrinha";
 	exProp:classeagrotoxico <http://aims.fao.org/aos/agrovoc/herbicide>;
 	rdfs:label "Teste" .
 
-ex:obj22	exProp:ano "2000";
+ex:obj22 exProp:ano "2000";
 	exProp:cultura "Pastagem";
 	exProp:classeagrotoxico <http://aims.fao.org/aos/agrovoc/herbicide>;
 	rdfs:label "Teste" .
 
-ex:obj23	exProp:ano "2000";
+ex:obj23 exProp:ano "2000";
 	exProp:cultura "Reflorestamento";
 	exProp:classeagrotoxico <http://aims.fao.org/aos/agrovoc/herbicide>;
 	rdfs:label "Teste" .
 
-ex:obj24	exProp:ano "2000";
+ex:obj24 exProp:ano "2000";
 	exProp:cultura "Soja";
 	exProp:classeagrotoxico <http://aims.fao.org/aos/agrovoc/herbicide>;
 	rdfs:label "Teste" .
 
-ex:obj25	exProp:ano "2000";
+ex:obj25 exProp:ano "2000";
 	exProp:cultura "Tomate Envarado";
 	exProp:classeagrotoxico <http://aims.fao.org/aos/agrovoc/herbicide>;
 	rdfs:label "Teste" .
 
-ex:obj26	exProp:ano "2000";
+ex:obj26 exProp:ano "2000";
 	exProp:cultura "Tomate Rasteiro";
 	exProp:classeagrotoxico <http://aims.fao.org/aos/agrovoc/herbicide>;
 	rdfs:label "Teste" .
 
-ex:obj27	exProp:ano "2000";
+ex:obj27 exProp:ano "2000";
 	exProp:cultura "Trigo";
 	exProp:classeagrotoxico <http://aims.fao.org/aos/agrovoc/herbicide>;
 	rdfs:label "Teste" .
 
-ex:obj28	exProp:ano "2000";
+ex:obj28 exProp:ano "2000";
 	exProp:cultura "Uva";
 	exProp:classeagrotoxico <http://aims.fao.org/aos/agrovoc/herbicide>;
 	rdfs:label "Teste" .
 
-ex:obj29	exProp:ano "2000";
+ex:obj29 exProp:ano "2000";
 	exProp:cultura "Áreas não cultivadas";
 	exProp:classeagrotoxico <http://aims.fao.org/aos/agrovoc/herbicide>;
 	rdfs:label "Teste" .
 
-ex:obj30	exProp:ano "2000";
+ex:obj30 exProp:ano "2000";
 	exProp:cultura "Grãos Armazenados";
 	exProp:classeagrotoxico <http://aims.fao.org/aos/agrovoc/herbicide>;
 	rdfs:label "Teste" .
 
-ex:obj31	exProp:ano "2000";
+ex:obj31 exProp:ano "2000";
 	exProp:cultura "Formigas";
 	exProp:classeagrotoxico <http://aims.fao.org/aos/agrovoc/herbicide>;
 	rdfs:label "Teste" .
 
-ex:obj32	exProp:ano "2000";
+ex:obj32 exProp:ano "2000";
 	exProp:cultura "Tratamento Sementes:";
 	exProp:classeagrotoxico <http://aims.fao.org/aos/agrovoc/herbicide>;
 	rdfs:label "Teste" .
 
-ex:obj33	exProp:ano "2000";
+ex:obj33 exProp:ano "2000";
 	exProp:cultura "Feijão";
 	exProp:classeagrotoxico <http://aims.fao.org/aos/agrovoc/herbicide>;
 	rdfs:label "Teste" .
 
-ex:obj34	exProp:ano "2000";
+ex:obj34 exProp:ano "2000";
 	exProp:cultura "Milho verão";
 	exProp:classeagrotoxico <http://aims.fao.org/aos/agrovoc/herbicide>;
 	rdfs:label "Teste" .
 
-ex:obj35	exProp:ano "2000";
+ex:obj35 exProp:ano "2000";
 	exProp:cultura "As demais";
 	exProp:classeagrotoxico <http://aims.fao.org/aos/agrovoc/herbicide>;
 	rdfs:label "Teste" .
 
-ex:obj36	exProp:ano "2000";
+ex:obj36 exProp:ano "2000";
 	exProp:cultura "Outras";
 	exProp:classeagrotoxico <http://aims.fao.org/aos/agrovoc/herbicide>;
 	rdfs:label "Teste" .
