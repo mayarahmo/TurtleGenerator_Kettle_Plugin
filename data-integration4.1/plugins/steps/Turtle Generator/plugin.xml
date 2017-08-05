@@ -5,7 +5,7 @@
    description="TurtleGenerator"
    tooltip="Gera rdf em formato turtle a partir de um CSV"
    category="LinkedDataBR"
-   classname="triplegeneratorpackage.DataCubeStepMeta">
+   classname="turtlegeneratorpackage.DataCubeStepMeta">
    <libraries>
 		<library name="TurtleGenerator.jar"/>
 		<library name="KettlePluginTools.jar"/>
