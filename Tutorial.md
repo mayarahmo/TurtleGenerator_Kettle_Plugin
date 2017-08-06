@@ -9,7 +9,8 @@ or copy the plugin folder (plugins/steps/TurtleTransformator) into your Kettle p
 
 **2** Open the Kette (Spoon) folder and execute spoon.bat.  
 
-3 Go to file > new > Transformation.
-4 In Design tab go to "LinkedDataBR" and drag the "Turtle Generator" to the Transformation field.
+**3** Go to file > new > Transformation.
+
+**4** In Design tab go to "LinkedDataBR" and drag the "Turtle Generator" to the Transformation field.
 
 ![Teste](https://user-images.githubusercontent.com/8130000/29002728-6d692260-7a7f-11e7-9135-d5b2971da22f.png)
