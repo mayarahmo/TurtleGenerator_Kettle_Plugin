@@ -1,5 +1,5 @@
 # Turtle Generator Kettle Plugin 
-Kettleplugin to write a RDF Turtle file from a CSV file.
+>> Kettleplugin to write a RDF Turtle file from a CSV file.
 Turtle Generator is a plugin developed from the DataCube Transformator plugin: https://github.com/mayarahmo/DataCube_Kettle_Plugin
 
 ---
