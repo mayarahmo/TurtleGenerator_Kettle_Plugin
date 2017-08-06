@@ -19,11 +19,13 @@ or copy the plugin folder (plugins/steps/TurtleTransformator) into your Kettle p
 
 ![Drag steps into the Transformation](https://user-images.githubusercontent.com/8130000/29002731-74ae7822-7a7f-11e7-8ec4-7ae45fdf8d61.png)
 
-**6** Mouse over the "CSV Output Input" click in the right arrow, drag your mouse to the "Turtle Generator" and click on it and select "Main output of the step". 
+**6** Holl over the "CSV Output Input" click in the right arrow, drag your mouse to the "Turtle Generator" and click on it and select "Main output of the step". 
  
 ![Main Output of the Step](https://user-images.githubusercontent.com/8130000/29002946-038776b2-7a84-11e7-82e1-36fae0b55674.png)
  
 **7** Do the same to the "Input CSV File". It's going to be like:
 
 ![Turtle Transformation](https://user-images.githubusercontent.com/8130000/29002734-7947c596-7a7f-11e7-988f-8e50f0db2471.png)
+
+**8** 
  
