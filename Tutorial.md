@@ -27,8 +27,14 @@ or copy the plugin folder (plugins/steps/TurtleTransformator) into your Kettle p
 
 ![Turtle Transformation](https://user-images.githubusercontent.com/8130000/29002734-7947c596-7a7f-11e7-988f-8e50f0db2471.png)
 
-**8** Open "CSV File Input" and selected the input file in your computer.
+**8** Open "CSV File Input" and selected the input file in your computer. In "Delimiter" configure to ";" or ",".
 
 ![CSV File Input](https://user-images.githubusercontent.com/8130000/29244002-f0cb0b88-7f83-11e7-8bb9-945f2e00aa6d.png)
+
+**9** In "Text File Output" select the output file. In "Content" tab deselect "Separator" and "Header".
+
+![Text Output File](https://user-images.githubusercontent.com/8130000/29244074-b38b8926-7f85-11e7-9594-65ce176876d1.png)
+
+
 
  
