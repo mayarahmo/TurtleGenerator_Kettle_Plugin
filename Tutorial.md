@@ -27,5 +27,8 @@ or copy the plugin folder (plugins/steps/TurtleTransformator) into your Kettle p
 
 ![Turtle Transformation](https://user-images.githubusercontent.com/8130000/29002734-7947c596-7a7f-11e7-988f-8e50f0db2471.png)
 
-**8** 
+**8** Open "CSV File Input" and selected the input file in your computer.
+
+![CSV File Input](https://user-images.githubusercontent.com/8130000/29244002-f0cb0b88-7f83-11e7-8bb9-945f2e00aa6d.png)
+
  
