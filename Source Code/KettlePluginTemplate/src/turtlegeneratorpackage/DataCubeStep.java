@@ -107,7 +107,7 @@ public class DataCubeStep extends BaseStep implements
             	String labelDimensao = table.getValue(i,DataCubeStepMeta.Field.MAP_TABLE_LABELS_FIELD_NAME.name());
             	String dimensionURIType = table.getValue(i,DataCubeStepMeta.Field.MAP_TABLE_URI_TYPE_FIELD_NAME.name());
             	if (dimensionField != null){    		
-            		putOutRow(row, meta, data, "exProp:" + removeSignals(dimensionField).toLowerCase() + " owl:SameAs <"+dimensionURIType+">;");
+            		putOutRow(row, meta, data, "exProp:" + removeSignals(dimensionField).toLowerCase() + " owl:sameAs <"+dimensionURIType+">;");
             		putOutRow(row, meta, data, "	rdfs:label \"" + labelDimensao + "\"@en .");
             		putOutRow(row, meta, data, "");
             	}       

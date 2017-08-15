@@ -1,12 +1,5 @@
 package turtlegeneratorpackage;
 
-/*
- * Feito por: GABRIEL GONÇALVES DE CASTRO MARQUES
- * ALUNO DO CURSO DE CIÊNCIA DA COMPUTAÇÃO DA UFRJ
- * 05/05/15
- * DATACUBE TRANSFORMATOR PARA KETTLE(SPOON)
- */
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -111,8 +104,6 @@ public class DataCubeStepDialog extends BaseStepDialog implements
                 		ColumnInfo.COLUMN_TYPE_CCOMBO, this.getFields(), true),
                 new ColumnInfo("Label da Propriedade (Descrição)",
                         ColumnInfo.COLUMN_TYPE_TEXT),
-                new ColumnInfo("URI da Propriedade                          \u00A0",
-                        ColumnInfo.COLUMN_TYPE_TEXT),
                 new ColumnInfo("URI do tipo da Propriedade (string, float, int...)",
                         ColumnInfo.COLUMN_TYPE_TEXT)};
         wMapTable = swthlp.appendTableView(cpt, null, columns, defModListener,
@@ -174,7 +165,7 @@ public class DataCubeStepDialog extends BaseStepDialog implements
         item.setText("Definição das hierarquias (de -> para: xx is a part_of yy)");
         cpt = swthlp.appendComposite(wTabFolder, lastControl);    
         ColumnInfo[] columns2 = new ColumnInfo[] {
-        		new ColumnInfo("Dimensão em que o valor (atributo) está",
+        		new ColumnInfo("Propriedade em que o valor (atributo) está",
                         ColumnInfo.COLUMN_TYPE_CCOMBO, this.getFields(), true),
                 new ColumnInfo("Inserir o valor do atributo (\"de\", \"xx\")",
                         ColumnInfo.COLUMN_TYPE_TEXT),
@@ -271,7 +262,7 @@ public class DataCubeStepDialog extends BaseStepDialog implements
 
         // Adiciona um label e um input text no topo do dialog shell
         wlStepname = new Label(shell, SWT.RIGHT);
-        wlStepname.setText("DataCube Transformation");
+        wlStepname.setText("Turtle Generator Transformation");
         props.setLook(wlStepname);
 
         fdlStepname = new FormData();
@@ -385,15 +376,6 @@ public class DataCubeStepDialog extends BaseStepDialog implements
                 wMapTable.add(table.getRowRange(i, rf).getRow());
             }
             wMapTable.remove(0);        
-
-            //TABLE 2
-            table = input.getMapTable1();
-            rf = getRowFactory1(table);
-            for (int i = 0; i < table.size(); i++)
-            {
-                wMapTable1.add(table.getRowRange(i, rf).getRow());
-            }
-            wMapTable1.remove(0);
             
             //TABLE 5
             table = input.getMapTable2();
@@ -464,18 +446,6 @@ public class DataCubeStepDialog extends BaseStepDialog implements
             table.add(rf.newRow(wMapTable.getItem(i)).getFullRow());
         }
         
-        
-        //Table 2
-        table = input.getMapTable1();
-        table.clear();
-        rf = getRowFactory1(table);
-
-        for (int i = 0; i < wMapTable1.getItemCount(); i++)
-        {
-            table.add(rf.newRow(wMapTable1.getItem(i)).getFullRow());
-        }
-        
-        
         //Table 5
         table = input.getMapTable2();
         table.clear();
@@ -499,25 +469,8 @@ public class DataCubeStepDialog extends BaseStepDialog implements
                                 .name(),
                         DataCubeStepMeta.Field.MAP_TABLE_LABELS_FIELD_NAME
                                 .name(),
-                        DataCubeStepMeta.Field.MAP_TABLE_URI_FIELD_NAME
-                                .name(),
                         DataCubeStepMeta.Field.MAP_TABLE_URI_TYPE_FIELD_NAME
                                 .name());
-    }
-    
-    
-    private DataTable<String>.RowFactory getRowFactory1(DataTable<String> table)
-    {
-        return table.newRowFactory(
-				        DataCubeStepMeta.Field.MAP_TABLE_MEASURE_FIELD_NAME
-				                .name(),
-				        DataCubeStepMeta.Field.MAP_TABLE_MEASURE_LABEL_FIELD_NAME
-				                .name(),
-				        DataCubeStepMeta.Field.MAP_TABLE_MEASURE_URI_FIELD_NAME
-				                .name(),
-				        DataCubeStepMeta.Field.MAP_TABLE_MEASURE_URI_TYPE_FIELD_NAME
-				                .name());
-    
     }
    
     private DataTable<String>.RowFactory getRowFactory2(DataTable<String> table)

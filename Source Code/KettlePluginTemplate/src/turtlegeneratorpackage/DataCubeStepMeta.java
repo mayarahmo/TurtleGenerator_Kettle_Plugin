@@ -1,12 +1,5 @@
 package turtlegeneratorpackage;
 
-/*
- * Feito por: GABRIEL GONÇALVES DE CASTRO MARQUES
- * ALUNO DO CURSO DE CIÊNCIA DA COMPUTAÇÃO DA UFRJ
- * 05/05/15
- * DATACUBE TRANSFORMATOR PARA KETTLE(SPOON)
- */
-
 import java.io.StringWriter;
 import java.util.ArrayList;
 import java.util.HashMap;
