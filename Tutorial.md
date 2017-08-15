@@ -21,19 +21,35 @@ or copy the plugin folder (plugins/steps/TurtleTransformator) into your Kettle p
 
 **6** Holl over the "CSV Output Input" click in the right arrow, drag your mouse to the "Turtle Generator", click on it and select "Main output of the step". 
  
-![Main Output of the Step](https://user-images.githubusercontent.com/8130000/29002946-038776b2-7a84-11e7-82e1-36fae0b55674.png)
+![Main Output of the Step - Turtle Generator Transformator](https://user-images.githubusercontent.com/8130000/29002946-038776b2-7a84-11e7-82e1-36fae0b55674.png)
  
 **7** Do the same to "Turtle Generator". It's going to be like:
 
-![Turtle Transformation](https://user-images.githubusercontent.com/8130000/29002734-7947c596-7a7f-11e7-988f-8e50f0db2471.png)
+![Turtle Transformation - Turtle Generator Transformator](https://user-images.githubusercontent.com/8130000/29002734-7947c596-7a7f-11e7-988f-8e50f0db2471.png)
 
 **8** Open "CSV File Input" and selected the input file in your computer. In "Delimiter" configure to ";" or ",".
 
-![CSV File Input](https://user-images.githubusercontent.com/8130000/29244002-f0cb0b88-7f83-11e7-8bb9-945f2e00aa6d.png)
+![CSV File Input - Turtle Generator Transformator](https://user-images.githubusercontent.com/8130000/29244002-f0cb0b88-7f83-11e7-8bb9-945f2e00aa6d.png)
 
 **9** In "Text File Output" select the output file. In "Content" tab deselect "Separator" and "Header".
 
-![Text Output File](https://user-images.githubusercontent.com/8130000/29244074-b38b8926-7f85-11e7-9594-65ce176876d1.png)
+![Text Output File - Turtle Generator Transformator](https://user-images.githubusercontent.com/8130000/29244074-b38b8926-7f85-11e7-9594-65ce176876d1.png)
+
+**10** In "TurtleGenerator Transformator" in "Definição e Descrição das Propriedades" each line select the column (property) its label and the uri that describes it (owl:sameAs) 
+
+![CSV Properties definition - Turtle Generator Transformator](https://user-images.githubusercontent.com/8130000/29320784-b1dc4db0-81ae-11e7-826b-ba74783a6cbf.png)
+
+**11** In "Prefixos" click in "Defaults" to add. You can add more if you want to. OBS: Remove empty lines.
+
+![Prefixes - Turtle Generator Transformator](https://user-images.githubusercontent.com/8130000/29320944-3f62ecd4-81af-11e7-9be0-1b0b7f70c624.png)
+
+**12** In "Descrição da unidade" put a description to each triples group. p.e. "Pesticide consumption by cultivation and year in Brazil".
+
+![Unity Description - Turtle Generator Transformator](https://user-images.githubusercontent.com/8130000/29321151-e0729750-81af-11e7-80f1-75dabb73f141.png)
+
+
+
+
 
 
 
