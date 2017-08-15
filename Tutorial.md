@@ -55,7 +55,7 @@ or copy the plugin folder (plugins/steps/TurtleTransformator) into your Kettle p
 
 ![Execute - Turtle Generator Transformator](https://user-images.githubusercontent.com/8130000/29002755-f448538c-7a7f-11e7-8215-9e913e64ec57.png)
 
-**15** Well done. Now your output is something like this
+**15** Well done. Now your output is something like this: https://github.com/mayarahmo/TurtleGenerator_Kettle_Plugin/blob/master/output.txt
 
 [output.txt](https://github.com/mayarahmo/TurtleGenerator_Kettle_Plugin/files/1225533/output.txt)
 
