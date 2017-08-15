@@ -51,11 +51,13 @@ or copy the plugin folder (plugins/steps/TurtleTransformator) into your Kettle p
 
 ![Hierarchys - Turtle Generator Transformator](https://user-images.githubusercontent.com/8130000/29321295-5c6759e0-81b0-11e7-953c-aa4c5849a661.png)
 
-** 14 ** Execute
+**14** Execute
 
 ![Execute - Turtle Generator Transformator](https://user-images.githubusercontent.com/8130000/29002755-f448538c-7a7f-11e7-8215-9e913e64ec57.png)
 
+**15** Well done. Now your output is something like this
 
+[output.txt](https://github.com/mayarahmo/TurtleGenerator_Kettle_Plugin/files/1225533/output.txt)
 
 
 
