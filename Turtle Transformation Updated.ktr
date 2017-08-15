@@ -79,7 +79,7 @@
            <method>none</method>
            <schema_name/>
            </partitioning>
-    <filename>C:\Users\Mayara.MAYA-PC\OneDrive\Pen drive\Triple Generator Kettle Plugin\example.csv</filename>
+    <filename>C:\Users\Convidado\Desktop\TurtleGenerator_Kettle_Plugin\example.csv</filename>
     <filename_field/>
     <rownum_field/>
     <include_filename>N</include_filename>
@@ -194,8 +194,8 @@
     </fields>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>222</xloc>
-      <yloc>59</yloc>
+      <xloc>223</xloc>
+      <yloc>56</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -223,7 +223,7 @@
     <fileNameInField>N</fileNameInField>
     <fileNameField/>
     <file>
-      <name>C:\Users\Mayara.MAYA-PC\OneDrive\Pen drive\Triple Generator Kettle Plugin\file</name>
+      <name>C:\Users\Convidado\Desktop\TurtleGenerator_Kettle_Plugin\file</name>
       <is_command>N</is_command>
       <do_not_open_new_file_init>N</do_not_open_new_file_init>
       <extention>txt</extention>
@@ -273,21 +273,27 @@
       <Data>
         <Row>
           <MAP__TABLE__DIMENSIONS__FIELD__NAME>Ano</MAP__TABLE__DIMENSIONS__FIELD__NAME>
-          <MAP__TABLE__LABELS__FIELD__NAME></MAP__TABLE__LABELS__FIELD__NAME>
-          <MAP__TABLE__URI__FIELD__NAME>Ano</MAP__TABLE__URI__FIELD__NAME>
+          <MAP__TABLE__LABELS__FIELD__NAME>Ano</MAP__TABLE__LABELS__FIELD__NAME>
+          <MAP__TABLE__URI__FIELD__NAME></MAP__TABLE__URI__FIELD__NAME>
           <MAP__TABLE__URI__TYPE__FIELD__NAME>http://www.w3.org/2002/07/owl#Ano</MAP__TABLE__URI__TYPE__FIELD__NAME>
         </Row>
         <Row>
           <MAP__TABLE__DIMENSIONS__FIELD__NAME>Cultura</MAP__TABLE__DIMENSIONS__FIELD__NAME>
           <MAP__TABLE__LABELS__FIELD__NAME>Cultura</MAP__TABLE__LABELS__FIELD__NAME>
-          <MAP__TABLE__URI__FIELD__NAME>http://dadoscontraosagrotoxicos.org/cultura</MAP__TABLE__URI__FIELD__NAME>
-          <MAP__TABLE__URI__TYPE__FIELD__NAME>http://www.w3.org/2002/07/owl#Cultura</MAP__TABLE__URI__TYPE__FIELD__NAME>
+          <MAP__TABLE__URI__FIELD__NAME></MAP__TABLE__URI__FIELD__NAME>
+          <MAP__TABLE__URI__TYPE__FIELD__NAME>http://aims.fao.org/aos/agrovoc/c_2018</MAP__TABLE__URI__TYPE__FIELD__NAME>
         </Row>
         <Row>
           <MAP__TABLE__DIMENSIONS__FIELD__NAME>classeAgrotoxico</MAP__TABLE__DIMENSIONS__FIELD__NAME>
           <MAP__TABLE__LABELS__FIELD__NAME>Classe</MAP__TABLE__LABELS__FIELD__NAME>
-          <MAP__TABLE__URI__FIELD__NAME>http://dadoscontraosagrotoxicos.org/classeagrotoxico</MAP__TABLE__URI__FIELD__NAME>
-          <MAP__TABLE__URI__TYPE__FIELD__NAME>http://www.w3.org/2002/07/owl#Agrotoxico</MAP__TABLE__URI__TYPE__FIELD__NAME>
+          <MAP__TABLE__URI__FIELD__NAME></MAP__TABLE__URI__FIELD__NAME>
+          <MAP__TABLE__URI__TYPE__FIELD__NAME>http://aims.fao.org/aos/agrovoc/c_5739</MAP__TABLE__URI__TYPE__FIELD__NAME>
+        </Row>
+        <Row>
+          <MAP__TABLE__DIMENSIONS__FIELD__NAME>valorAgrotoxico</MAP__TABLE__DIMENSIONS__FIELD__NAME>
+          <MAP__TABLE__LABELS__FIELD__NAME>Custo Agrotóxico</MAP__TABLE__LABELS__FIELD__NAME>
+          <MAP__TABLE__URI__FIELD__NAME></MAP__TABLE__URI__FIELD__NAME>
+          <MAP__TABLE__URI__TYPE__FIELD__NAME>http://dbpedia.org/resource/Real</MAP__TABLE__URI__TYPE__FIELD__NAME>
         </Row>
       </Data>
     </DataTable>
@@ -322,7 +328,7 @@
       <java.util.Arrays_-ArrayList>
         <a class="string-array">
           <string>@base</string>
-          <string>http://example.cubeviz.org/datacube/</string>
+          <string>http://meu.exemplo/</string>
         </a>
       </java.util.Arrays_-ArrayList>
       <java.util.Arrays_-ArrayList>
@@ -363,32 +369,14 @@
       </java.util.Arrays_-ArrayList>
       <java.util.Arrays_-ArrayList>
         <a class="string-array">
-          <string>@prefix sdmx_code:</string>
-          <string>http://purl.org/linked-data/sdmx/2009/code#</string>
-        </a>
-      </java.util.Arrays_-ArrayList>
-      <java.util.Arrays_-ArrayList>
-        <a class="string-array">
-          <string>@prefix sdmx_dimension:</string>
-          <string>http://purl.org/linked-data/sdmx/2009/dimension#</string>
-        </a>
-      </java.util.Arrays_-ArrayList>
-      <java.util.Arrays_-ArrayList>
-        <a class="string-array">
-          <string>@prefix cube:</string>
-          <string>http://purl.org/linked-data/cube#</string>
-        </a>
-      </java.util.Arrays_-ArrayList>
-      <java.util.Arrays_-ArrayList>
-        <a class="string-array">
           <string>@prefix ex:</string>
-          <string>http://meu.exemplo/datacube/</string>
+          <string>http://meu.exemplo/</string>
         </a>
       </java.util.Arrays_-ArrayList>
       <java.util.Arrays_-ArrayList>
         <a class="string-array">
           <string>@prefix exProp:</string>
-          <string>http://meu.exemplo/datacube/properties/</string>
+          <string>http://meu.exemplo/properties/</string>
         </a>
       </java.util.Arrays_-ArrayList>
     </list>
@@ -415,7 +403,7 @@
   </entry>
   <entry>
     <string>OUTPUT_UNITY_FIELD_NAME</string>
-    <string>Teste</string>
+    <string>Consumo de agrotóxicos por lavoura e ano no Brasil</string>
   </entry>
 </map></DATA_ROOT_NODE>     <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>

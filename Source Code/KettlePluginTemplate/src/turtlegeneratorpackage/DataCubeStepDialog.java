@@ -56,18 +56,15 @@ public class DataCubeStepDialog extends BaseStepDialog implements
     private TableView wMapTable2;
     private TableView wPrefixes;
     
-    protected String[][] defaultPrefixes = {{ "@base", "http://example.cubeviz.org/datacube/" },
+    protected String[][] defaultPrefixes = {{ "@base", "http://meu.exemplo/" },
             { "@prefix owl:", "http://www.w3.org/2002/07/owl#" },
             { "@prefix rdf:", "http://www.w3.org/1999/02/22-rdf-syntax-ns#" },
             { "@prefix rdfs:", "http://www.w3.org/2000/01/rdf-schema#" },
             { "@prefix dc:", "http://purl.org/dc/elements/1.1/" },
             { "@prefix skos:", "http://www.w3.org/2004/02/skos/core#" },
             { "@prefix obo:", "http://purl.obolibrary.org/obo#" },
-            { "@prefix sdmx_code:", "http://purl.org/linked-data/sdmx/2009/code#" },
-            { "@prefix sdmx_dimension:", "http://purl.org/linked-data/sdmx/2009/dimension#" },
-            { "@prefix cube:", "http://purl.org/linked-data/cube#" },
-            { "@prefix ex:", "http://meu.exemplo/datacube/" },
-            { "@prefix exProp:", "http://meu.exemplo/datacube/properties/" }};
+            { "@prefix ex:", "http://meu.exemplo/" },
+            { "@prefix exProp:", "http://meu.exemplo/properties/" }};
     
 
     private TextVar unity;
@@ -104,7 +101,7 @@ public class DataCubeStepDialog extends BaseStepDialog implements
                 		ColumnInfo.COLUMN_TYPE_CCOMBO, this.getFields(), true),
                 new ColumnInfo("Label da Propriedade (Descrição)",
                         ColumnInfo.COLUMN_TYPE_TEXT),
-                new ColumnInfo("URI do tipo da Propriedade (string, float, int...)",
+                new ColumnInfo("URI (owl:sameAs)",
                         ColumnInfo.COLUMN_TYPE_TEXT)};
         wMapTable = swthlp.appendTableView(cpt, null, columns, defModListener,
                 98);

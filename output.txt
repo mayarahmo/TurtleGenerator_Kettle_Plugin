@@ -1,28 +1,28 @@
-@base <http://example.cubeviz.org/datacube/>.
+@base <http://meu.exemplo/>.
 @prefix owl: <http://www.w3.org/2002/07/owl#>.
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
 @prefix dc: <http://purl.org/dc/elements/1.1/>.
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>.
 @prefix obo: <http://purl.obolibrary.org/obo#>.
-@prefix sdmx_code: <http://purl.org/linked-data/sdmx/2009/code#>.
-@prefix sdmx_dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>.
-@prefix cube: <http://purl.org/linked-data/cube#>.
-@prefix ex: <http://meu.exemplo/datacube/>.
-@prefix exProp: <http://meu.exemplo/datacube/properties/>. 
+@prefix ex: <http://meu.exemplo/>.
+@prefix exProp: <http://meu.exemplo/properties/>. 
 
 #
 # PROPERTIES DEFINITION
 #
 
-exProp:ano owl:SameAs <http://www.w3.org/2002/07/owl#Ano>;
-	rdfs:label ""@en .
+exProp:ano owl:sameAs <http://www.w3.org/2002/07/owl#Ano>;
+	rdfs:label "Ano"@en .
 
-exProp:cultura owl:SameAs <http://www.w3.org/2002/07/owl#Cultura>;
+exProp:cultura owl:sameAs <http://aims.fao.org/aos/agrovoc/c_2018>;
 	rdfs:label "Cultura"@en .
 
-exProp:classeagrotoxico owl:SameAs <http://www.w3.org/2002/07/owl#Agrotoxico>;
+exProp:classeagrotoxico owl:sameAs <http://aims.fao.org/aos/agrovoc/c_5739>;
 	rdfs:label "Classe"@en .
+
+exProp:valoragrotoxico owl:sameAs <http://dbpedia.org/resource/Real>;
+	rdfs:label "Custo Agrotóxico"@en .
 
 #
 # HIERARCHYS
@@ -35,185 +35,222 @@ ex: a ex: ;
 ex:obj0 exProp:ano "2000";
 	exProp:cultura "Algodão";
 	exProp:classeagrotoxico <http://aims.fao.org/aos/agrovoc/herbicide>;
-	rdfs:label "Teste" .
+	exProp:valoragrotoxico "20414851200";
+	rdfs:label "Consumo de agrotóxicos por lavoura e ano no Brasil" .
 
 ex:obj1 exProp:ano "2000";
 	exProp:cultura "Alho";
 	exProp:classeagrotoxico <http://aims.fao.org/aos/agrovoc/herbicide>;
-	rdfs:label "Teste" .
+	exProp:valoragrotoxico <null>;
+	rdfs:label "Consumo de agrotóxicos por lavoura e ano no Brasil" .
 
 ex:obj2 exProp:ano "2000";
 	exProp:cultura "Amendoim";
 	exProp:classeagrotoxico <http://aims.fao.org/aos/agrovoc/herbicide>;
-	rdfs:label "Teste" .
+	exProp:valoragrotoxico <null>;
+	rdfs:label "Consumo de agrotóxicos por lavoura e ano no Brasil" .
 
 ex:obj3 exProp:ano "2000";
 	exProp:cultura "Arroz Irrigado";
 	exProp:classeagrotoxico <http://aims.fao.org/aos/agrovoc/herbicide>;
-	rdfs:label "Teste" .
+	exProp:valoragrotoxico <null>;
+	rdfs:label "Consumo de agrotóxicos por lavoura e ano no Brasil" .
 
 ex:obj4 exProp:ano "2000";
 	exProp:cultura "Arroz Sequeiro";
 	exProp:classeagrotoxico <http://aims.fao.org/aos/agrovoc/herbicide>;
-	rdfs:label "Teste" .
+	exProp:valoragrotoxico <null>;
+	rdfs:label "Consumo de agrotóxicos por lavoura e ano no Brasil" .
 
 ex:obj5 exProp:ano "2000";
 	exProp:cultura "Banana";
 	exProp:classeagrotoxico <http://aims.fao.org/aos/agrovoc/herbicide>;
-	rdfs:label "Teste" .
+	exProp:valoragrotoxico <null>;
+	rdfs:label "Consumo de agrotóxicos por lavoura e ano no Brasil" .
 
 ex:obj6 exProp:ano "2000";
 	exProp:cultura "Batata Inglesa";
 	exProp:classeagrotoxico <http://aims.fao.org/aos/agrovoc/herbicide>;
-	rdfs:label "Teste" .
+	exProp:valoragrotoxico <null>;
+	rdfs:label "Consumo de agrotóxicos por lavoura e ano no Brasil" .
 
 ex:obj7 exProp:ano "2000";
 	exProp:cultura "Cacau";
 	exProp:classeagrotoxico <http://aims.fao.org/aos/agrovoc/herbicide>;
-	rdfs:label "Teste" .
+	exProp:valoragrotoxico <null>;
+	rdfs:label "Consumo de agrotóxicos por lavoura e ano no Brasil" .
 
 ex:obj8 exProp:ano "2000";
 	exProp:cultura "Café";
 	exProp:classeagrotoxico <http://aims.fao.org/aos/agrovoc/herbicide>;
-	rdfs:label "Teste" .
+	exProp:valoragrotoxico <null>;
+	rdfs:label "Consumo de agrotóxicos por lavoura e ano no Brasil" .
 
 ex:obj9 exProp:ano "2000";
 	exProp:cultura "Cana-de-açúcar";
 	exProp:classeagrotoxico <http://aims.fao.org/aos/agrovoc/herbicide>;
-	rdfs:label "Teste" .
+	exProp:valoragrotoxico <null>;
+	rdfs:label "Consumo de agrotóxicos por lavoura e ano no Brasil" .
 
 ex:obj10 exProp:ano "2000";
 	exProp:cultura "Cebola";
 	exProp:classeagrotoxico <http://aims.fao.org/aos/agrovoc/herbicide>;
-	rdfs:label "Teste" .
+	exProp:valoragrotoxico <null>;
+	rdfs:label "Consumo de agrotóxicos por lavoura e ano no Brasil" .
 
 ex:obj11 exProp:ano "2000";
 	exProp:cultura "Citros";
 	exProp:classeagrotoxico <http://aims.fao.org/aos/agrovoc/herbicide>;
-	rdfs:label "Teste" .
+	exProp:valoragrotoxico <null>;
+	rdfs:label "Consumo de agrotóxicos por lavoura e ano no Brasil" .
 
 ex:obj12 exProp:ano "2000";
 	exProp:cultura "Feijão";
 	exProp:classeagrotoxico <http://aims.fao.org/aos/agrovoc/herbicide>;
-	rdfs:label "Teste" .
+	exProp:valoragrotoxico <null>;
+	rdfs:label "Consumo de agrotóxicos por lavoura e ano no Brasil" .
 
 ex:obj13 exProp:ano "2000";
 	exProp:cultura "Floricultura";
 	exProp:classeagrotoxico <http://aims.fao.org/aos/agrovoc/herbicide>;
-	rdfs:label "Teste" .
+	exProp:valoragrotoxico <null>;
+	rdfs:label "Consumo de agrotóxicos por lavoura e ano no Brasil" .
 
 ex:obj14 exProp:ano "2000";
 	exProp:cultura "Fruticultura";
 	exProp:classeagrotoxico <http://aims.fao.org/aos/agrovoc/herbicide>;
-	rdfs:label "Teste" .
+	exProp:valoragrotoxico <null>;
+	rdfs:label "Consumo de agrotóxicos por lavoura e ano no Brasil" .
 
 ex:obj15 exProp:ano "2000";
 	exProp:cultura "Fumo";
 	exProp:classeagrotoxico <http://aims.fao.org/aos/agrovoc/herbicide>;
-	rdfs:label "Teste" .
+	exProp:valoragrotoxico <null>;
+	rdfs:label "Consumo de agrotóxicos por lavoura e ano no Brasil" .
 
 ex:obj16 exProp:ano "2000";
 	exProp:cultura "Horticultura";
 	exProp:classeagrotoxico <http://aims.fao.org/aos/agrovoc/herbicide>;
-	rdfs:label "Teste" .
+	exProp:valoragrotoxico <null>;
+	rdfs:label "Consumo de agrotóxicos por lavoura e ano no Brasil" .
 
 ex:obj17 exProp:ano "2000";
 	exProp:cultura "Maçã";
 	exProp:classeagrotoxico <http://aims.fao.org/aos/agrovoc/herbicide>;
-	rdfs:label "Teste" .
+	exProp:valoragrotoxico <null>;
+	rdfs:label "Consumo de agrotóxicos por lavoura e ano no Brasil" .
 
 ex:obj18 exProp:ano "2000";
 	exProp:cultura "Melão";
 	exProp:classeagrotoxico <http://aims.fao.org/aos/agrovoc/herbicide>;
-	rdfs:label "Teste" .
+	exProp:valoragrotoxico <null>;
+	rdfs:label "Consumo de agrotóxicos por lavoura e ano no Brasil" .
 
 ex:obj19 exProp:ano "2000";
 	exProp:cultura "Milho";
 	exProp:classeagrotoxico <http://aims.fao.org/aos/agrovoc/herbicide>;
-	rdfs:label "Teste" .
+	exProp:valoragrotoxico <null>;
+	rdfs:label "Consumo de agrotóxicos por lavoura e ano no Brasil" .
 
 ex:obj20 exProp:ano "2000";
 	exProp:cultura "Milho safra";
 	exProp:classeagrotoxico <http://aims.fao.org/aos/agrovoc/herbicide>;
-	rdfs:label "Teste" .
+	exProp:valoragrotoxico <null>;
+	rdfs:label "Consumo de agrotóxicos por lavoura e ano no Brasil" .
 
 ex:obj21 exProp:ano "2000";
 	exProp:cultura "Milho safrinha";
 	exProp:classeagrotoxico <http://aims.fao.org/aos/agrovoc/herbicide>;
-	rdfs:label "Teste" .
+	exProp:valoragrotoxico <null>;
+	rdfs:label "Consumo de agrotóxicos por lavoura e ano no Brasil" .
 
 ex:obj22 exProp:ano "2000";
 	exProp:cultura "Pastagem";
 	exProp:classeagrotoxico <http://aims.fao.org/aos/agrovoc/herbicide>;
-	rdfs:label "Teste" .
+	exProp:valoragrotoxico <null>;
+	rdfs:label "Consumo de agrotóxicos por lavoura e ano no Brasil" .
 
 ex:obj23 exProp:ano "2000";
 	exProp:cultura "Reflorestamento";
 	exProp:classeagrotoxico <http://aims.fao.org/aos/agrovoc/herbicide>;
-	rdfs:label "Teste" .
+	exProp:valoragrotoxico <null>;
+	rdfs:label "Consumo de agrotóxicos por lavoura e ano no Brasil" .
 
 ex:obj24 exProp:ano "2000";
 	exProp:cultura "Soja";
 	exProp:classeagrotoxico <http://aims.fao.org/aos/agrovoc/herbicide>;
-	rdfs:label "Teste" .
+	exProp:valoragrotoxico <null>;
+	rdfs:label "Consumo de agrotóxicos por lavoura e ano no Brasil" .
 
 ex:obj25 exProp:ano "2000";
 	exProp:cultura "Tomate Envarado";
 	exProp:classeagrotoxico <http://aims.fao.org/aos/agrovoc/herbicide>;
-	rdfs:label "Teste" .
+	exProp:valoragrotoxico <null>;
+	rdfs:label "Consumo de agrotóxicos por lavoura e ano no Brasil" .
 
 ex:obj26 exProp:ano "2000";
 	exProp:cultura "Tomate Rasteiro";
 	exProp:classeagrotoxico <http://aims.fao.org/aos/agrovoc/herbicide>;
-	rdfs:label "Teste" .
+	exProp:valoragrotoxico <null>;
+	rdfs:label "Consumo de agrotóxicos por lavoura e ano no Brasil" .
 
 ex:obj27 exProp:ano "2000";
 	exProp:cultura "Trigo";
 	exProp:classeagrotoxico <http://aims.fao.org/aos/agrovoc/herbicide>;
-	rdfs:label "Teste" .
+	exProp:valoragrotoxico <null>;
+	rdfs:label "Consumo de agrotóxicos por lavoura e ano no Brasil" .
 
 ex:obj28 exProp:ano "2000";
 	exProp:cultura "Uva";
 	exProp:classeagrotoxico <http://aims.fao.org/aos/agrovoc/herbicide>;
-	rdfs:label "Teste" .
+	exProp:valoragrotoxico <null>;
+	rdfs:label "Consumo de agrotóxicos por lavoura e ano no Brasil" .
 
 ex:obj29 exProp:ano "2000";
 	exProp:cultura "Áreas não cultivadas";
 	exProp:classeagrotoxico <http://aims.fao.org/aos/agrovoc/herbicide>;
-	rdfs:label "Teste" .
+	exProp:valoragrotoxico <null>;
+	rdfs:label "Consumo de agrotóxicos por lavoura e ano no Brasil" .
 
 ex:obj30 exProp:ano "2000";
 	exProp:cultura "Grãos Armazenados";
 	exProp:classeagrotoxico <http://aims.fao.org/aos/agrovoc/herbicide>;
-	rdfs:label "Teste" .
+	exProp:valoragrotoxico <null>;
+	rdfs:label "Consumo de agrotóxicos por lavoura e ano no Brasil" .
 
 ex:obj31 exProp:ano "2000";
 	exProp:cultura "Formigas";
 	exProp:classeagrotoxico <http://aims.fao.org/aos/agrovoc/herbicide>;
-	rdfs:label "Teste" .
+	exProp:valoragrotoxico <null>;
+	rdfs:label "Consumo de agrotóxicos por lavoura e ano no Brasil" .
 
 ex:obj32 exProp:ano "2000";
 	exProp:cultura "Tratamento Sementes:";
 	exProp:classeagrotoxico <http://aims.fao.org/aos/agrovoc/herbicide>;
-	rdfs:label "Teste" .
+	exProp:valoragrotoxico <null>;
+	rdfs:label "Consumo de agrotóxicos por lavoura e ano no Brasil" .
 
 ex:obj33 exProp:ano "2000";
 	exProp:cultura "Feijão";
 	exProp:classeagrotoxico <http://aims.fao.org/aos/agrovoc/herbicide>;
-	rdfs:label "Teste" .
+	exProp:valoragrotoxico <null>;
+	rdfs:label "Consumo de agrotóxicos por lavoura e ano no Brasil" .
 
 ex:obj34 exProp:ano "2000";
 	exProp:cultura "Milho verão";
 	exProp:classeagrotoxico <http://aims.fao.org/aos/agrovoc/herbicide>;
-	rdfs:label "Teste" .
+	exProp:valoragrotoxico <null>;
+	rdfs:label "Consumo de agrotóxicos por lavoura e ano no Brasil" .
 
 ex:obj35 exProp:ano "2000";
 	exProp:cultura "As demais";
 	exProp:classeagrotoxico <http://aims.fao.org/aos/agrovoc/herbicide>;
-	rdfs:label "Teste" .
+	exProp:valoragrotoxico <null>;
+	rdfs:label "Consumo de agrotóxicos por lavoura e ano no Brasil" .
 
 ex:obj36 exProp:ano "2000";
 	exProp:cultura "Outras";
 	exProp:classeagrotoxico <http://aims.fao.org/aos/agrovoc/herbicide>;
-	rdfs:label "Teste" .
+	exProp:valoragrotoxico <null>;
+	rdfs:label "Consumo de agrotóxicos por lavoura e ano no Brasil" .
 
