@@ -7,6 +7,8 @@ To run a transformation do the following:
 #**1** Download the dataintegration4.1, Kettle modified with the TurtleGenerator
 or copy the plugin folder (plugins/steps/TurtleTransformator) into your Kettle plugin folder (this procediment is not garanteed).
 
+OBS: Remove empty lines in any tab.
+
 **2** Open the Kette (Spoon) folder and execute spoon.bat.  
 
 **3** Go to file > new > Transformation.
@@ -39,7 +41,7 @@ or copy the plugin folder (plugins/steps/TurtleTransformator) into your Kettle p
 
 ![CSV Properties definition - Turtle Generator Transformator](https://user-images.githubusercontent.com/8130000/29320784-b1dc4db0-81ae-11e7-826b-ba74783a6cbf.png)
 
-**11** In "Prefixos" click in "Defaults" to add. You can add more if you want to. OBS: Remove empty lines in any tab.
+**11** In "Prefixos" click in "Defaults" to add. You can add more if you want to. 
 
 ![Prefixes - Turtle Generator Transformator](https://user-images.githubusercontent.com/8130000/29320944-3f62ecd4-81af-11e7-9be0-1b0b7f70c624.png)
 
