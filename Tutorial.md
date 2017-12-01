@@ -35,7 +35,7 @@ or copy the plugin folder (plugins/steps/TurtleTransformator) into your Kettle p
 
 ![Text Output File - Turtle Generator Transformator](https://user-images.githubusercontent.com/8130000/29244074-b38b8926-7f85-11e7-9594-65ce176876d1.png)
 
-**10** In "TurtleGenerator Transformator" in "Definição e Descrição das Propriedades" each line select the column (property) its label and the uri that describes it (owl:sameAs) 
+**10** In "TurtleGenerator Transformator" in "Definição e Descrição das Propriedades" each line select the column (property "Propriedade") its label and the uri that describes it (owl:sameAs) 
 
 ![CSV Properties definition - Turtle Generator Transformator](https://user-images.githubusercontent.com/8130000/29320784-b1dc4db0-81ae-11e7-826b-ba74783a6cbf.png)
 
