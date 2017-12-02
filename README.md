@@ -16,4 +16,4 @@ A complete tutorial how to execute and edit the source code can be found at http
 
 Output example files are in this directory. 
 
-You can find data sources to triplify at http://dados.contraosagrotoxicos.org/
+You can find datasets to triplify at http://dados.contraosagrotoxicos.org/
