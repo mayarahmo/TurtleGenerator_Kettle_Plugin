@@ -29,7 +29,7 @@ OBS: Remove empty lines in any tab.
 
 ![Turtle Transformation - Turtle Generator Transformator](https://user-images.githubusercontent.com/8130000/29002734-7947c596-7a7f-11e7-988f-8e50f0db2471.png)
 
-**8** Open "CSV File Input" and selected the input file in your computer. In "Delimiter" configure to ";" or ",".
+**8** Open "CSV File Input" and selected the input file in your computer. In "Delimiter" (Delimite) configure to ";" or "," as your CSV delimiter is.
 
 ![CSV File Input - Turtle Generator Transformator](https://user-images.githubusercontent.com/8130000/29244002-f0cb0b88-7f83-11e7-8bb9-945f2e00aa6d.png)
 
