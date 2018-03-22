@@ -2,7 +2,7 @@
 > Kettleplugin to write a RDF Turtle file from a CSV file.
 Turtle Generator is a plugin developed from the DataCube Transformator plugin: https://github.com/mayarahmo/DataCube_Kettle_Plugin
 
-CSV Input: The CSV file needs to be well formated, with one line of header where the first column is the subject and the others are the properties from that. An example here: https://github.com/mayarahmo/TurtleGenerator_Kettle_Plugin/blob/master/example.csv
+CSV Input: The CSV file needs to be well formated, with one line of header with column names. The first column of data is the subject and the others are the properties from that. An example here: https://github.com/mayarahmo/TurtleGenerator_Kettle_Plugin/blob/master/example.csv
 
 To run a transformation do the following:
 --- 
